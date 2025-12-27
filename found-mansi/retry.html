@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retrying Request...</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            height: 100vh;
+            background: linear-gradient(135deg, #ffe0e9, #fff1f5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #333;
+        }
+
+        .container {
+            background-color: #ffffff;
+            width: 90%;
+            max-width: 420px;
+            padding: 30px 24px;
+            border-radius: 12px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 20px;
+            font-weight: normal;
+            margin-bottom: 12px;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 14px;
+        }
+
+        ul {
+            text-align: left;
+            font-size: 13px;
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        .status {
+            font-size: 13px;
+            color: #777;
+            margin-bottom: 20px;
+        }
+
+        .continue-btn {
+            display: inline-block;
+            padding: 12px 22px;
+            background: linear-gradient(135deg, #ff6f91, #ff8fab);
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 14px;
+            border-radius: 25px;
+            font-weight: bold;
+        }
+
+        .continue-btn:active {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Retrying Request…</h1>
+
+        <p>
+            The system is attempting to locate the requested resource.
+        </p>
+
+        <ul>
+            <li>Checking server availability</li>
+            <li>Re-establishing connection</li>
+            <li>Scanning stored data</li>
+            <li>Verifying results</li>
+        </ul>
+
+        <p class="status">
+            Status: Partial match detected
+        </p>
+
+        <a class="continue-btn" href="found.html">
+            Continue
+        </a>
+    </div>
+
+</body>
+</html>

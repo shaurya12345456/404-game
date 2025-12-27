@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- THIS is what makes it mobile compatible -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>404 Not Found</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 24px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #ffffff;
+            color: #000000;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 22px;
+            font-weight: normal;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 1.6;
+            margin: 0 0 12px 0;
+        }
+
+        code {
+            background-color: #f5f5f5;
+            padding: 2px 4px;
+            font-size: 13px;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #ccc;
+            margin: 20px 0;
+        }
+
+        .server {
+            color: #555;
+            font-size: 12px;
+            word-break: break-word;
+        }
+
+        /* Pink retry button */
+        .retry-btn {
+            display: inline-block;
+            margin-top: 12px;
+            padding: 12px 20px;
+            background-color: #ff6f91;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 14px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        .retry-btn:active {
+            background-color: #ff4f7a;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Not Found</h1>
+
+        <p>
+            The requested URL <code>/lord.html</code> was not found on this server.
+        </p>
+
+        <hr>
+
+        <p class="server">
+            Apache/2.4.41 (Ubuntu) Server at localhost Port 80
+        </p>
+
+        <p>
+            <a class="retry-btn" href="retry.html">Retry Request</a>
+        </p>
+
+    </div>
+
+</body>
+</html>
+
